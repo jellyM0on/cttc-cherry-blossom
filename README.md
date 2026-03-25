@@ -10,8 +10,6 @@ It aims to explore the following research questions:
 - Do different climate classifications exhibit different trends in bloom timing over time?
 - Do bloom timing and trends differ across provinces in Japan?
 
-Results can be seen in `outputs/`
-
 ### Data Sources
 Cherry Blossom Event Data:
 - [Japan Cherry Blossom Observation](https://www.kaggle.com/datasets/hideos/japan-cherry-blossom-observation)
@@ -40,3 +38,10 @@ Location Climate Data:
     - Cfa - Hot summers, mild winters, humid year-round
     - Dfa - Hot summers, cold winters
     - Dfb - Mild summers, very cold winters
+    
+### Key trends
+*Results can be seen in `outputs/`*
+
+- Climates and geography strongly influence cherry blossom timing. Warmer regions tend to have earlier blooms as early as 20-60 days. The average is around 100 days. The higher end is around 140-155 days
+- Bloom dates are occurring earlier over time on average. This may be attributed to overall climate trends such as global warming
+- Despite average trends, there is still substantial variability among different Japan regions, but recent patterns seem to suggest a potential decline in the standard deviation in the future
