@@ -1,0 +1,8 @@
+metric,value
+mean_trend_slope_days_per_year,-0.1935286313710999
+mean_trend_intercept,485.3080368382139
+median_trend_slope_days_per_year,-0.12449092928545177
+median_trend_intercept,345.1604035542432
+first_year,1953
+last_year,2025
+interpretation,Negative slope indicates earlier full bloom over time.

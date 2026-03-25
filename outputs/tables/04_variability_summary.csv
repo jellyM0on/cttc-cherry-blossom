@@ -1,0 +1,8 @@
+metric,value
+mean_yearly_std_day_of_year,20.667534246575343
+median_yearly_std_day_of_year,20.96
+mean_yearly_range_day_of_year,110.38356164383562
+std_trend_slope_days_per_year,0.06911884487226991
+std_trend_intercept,-116.80984820436957
+range_trend_slope_days_per_year,0.02881648772060007
+range_trend_intercept,53.06756756756205

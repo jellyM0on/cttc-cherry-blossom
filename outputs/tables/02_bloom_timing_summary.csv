@@ -1,0 +1,8 @@
+metric,value
+overall_mean_day_of_year,100.8015911673973
+overall_median_day_of_year,99.0
+overall_std_day_of_year,21.726687918611173
+q1_day_of_year,93.0
+q3_day_of_year,110.0
+mean_of_yearly_means,100.37958904109588
+mean_of_yearly_medians,97.54794520547945
