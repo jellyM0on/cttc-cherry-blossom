@@ -1,0 +1,117 @@
+Using matplotlib font: Hiragino Sans
+
+--- 1. NATIONAL TREND ---
+                             metric                                              value
+0    mean_trend_slope_days_per_year                                          -0.193529
+1              mean_trend_intercept                                         485.308037
+2  median_trend_slope_days_per_year                                          -0.124491
+3            median_trend_intercept                                         345.160404
+4                        first_year                                               1953
+5                         last_year                                               2025
+6                    interpretation  Negative slope indicates earlier full bloom ov...
+
+--- 2. TYPICAL BLOOM TIMING ---
+                       metric       value
+0    overall_mean_day_of_year  100.801591
+1  overall_median_day_of_year   99.000000
+2     overall_std_day_of_year   21.726688
+3              q1_day_of_year   93.000000
+4              q3_day_of_year  110.000000
+5        mean_of_yearly_means  100.379589
+6      mean_of_yearly_medians   97.547945
+
+--- 3. EXTREMES ---
+              type  year  ... province  climate_classification_koppen
+0  earliest_record  1989  ...      沖縄県                             Af
+1    latest_record  1960  ...      北海道                            Dfb
+
+[2 rows x 8 columns]
+                         type    year  mean_day_of_year  median_day_of_year
+0    earliest_mean_bloom_year  2002.0             88.78                 NaN
+1      latest_mean_bloom_year  1965.0            112.70                 NaN
+2  earliest_median_bloom_year  2018.0               NaN                88.0
+3    latest_median_bloom_year  1984.0               NaN               108.5
+
+--- 4. VARIABILITY ---
+                            metric       value
+0      mean_yearly_std_day_of_year   20.667534
+1    median_yearly_std_day_of_year   20.960000
+2    mean_yearly_range_day_of_year  110.383562
+3    std_trend_slope_days_per_year    0.069119
+4              std_trend_intercept -116.809848
+5  range_trend_slope_days_per_year    0.028816
+6            range_trend_intercept   53.067568
+
+--- 5. CLIMATE DIFFERENCES ---
+  climate_classification_koppen  ...  total_records
+0                            Af  ...            150
+1                           Cfa  ...           2632
+2                           Dfa  ...            566
+3                           Dfb  ...            919
+
+[4 rows x 9 columns]
+
+--- 6. CLIMATE TRENDS ---
+  climate_classification_koppen  ...  total_station_observations
+0                            Af  ...                         150
+1                           Cfa  ...                        2632
+2                           Dfa  ...                         566
+3                           Dfb  ...                         919
+
+[4 rows x 10 columns]
+
+--- 7. PROVINCE DIFFERENCES / TRENDS ---
+   province  mean_day_of_year  ...  total_station_observations  total_records
+27      沖縄県         35.982836  ...                         292            292
+45     鹿児島県         75.124384  ...                         169            169
+43      高知県         89.840580  ...                          69             69
+29      熊本県         91.849315  ...                          73             73
+33      福岡県         92.277778  ...                          72             72
+12      宮崎県         92.410959  ...                         106            106
+2       佐賀県         92.972222  ...                          72             72
+38      長崎県         93.246712  ...                         187            187
+6      和歌山県         93.690141  ...                         121            121
+16      山梨県         93.712329  ...                          73             73
+
+[10 rows x 9 columns]
+  province  ...  total_station_observations
+0      三重県  ...                         128
+1      京都府  ...                         133
+2      佐賀県  ...                          72
+3      兵庫県  ...                         177
+4      北海道  ...                         973
+5      千葉県  ...                         111
+6     和歌山県  ...                         121
+7      埼玉県  ...                          73
+8      大分県  ...                          73
+9      大阪府  ...                          65
+
+[10 rows x 10 columns]
+   province  total_records  mean_day_of_year
+4       北海道            973        131.735068
+27      沖縄県            292         35.982836
+38      長崎県            187         93.246712
+25      新潟県            183        104.917945
+39      長野県            182        105.144110
+20      島根県            178         97.257808
+3       兵庫県            177         96.559315
+34      福島県            174        103.550274
+15      山形県            170        110.449863
+45     鹿児島県            169         75.124384
+
+--- 8. STATION TRENDS ---
+  jma_station_code station_name_jp  ...  city subprovince
+0              582              秋田  ...   秋田市         NaN
+1              407              旭川  ...   旭川市     上川総合振興局
+2              648              銚子  ...   銚子市         NaN
+3              616              福井  ...   福井市         NaN
+4              595              福島  ...   福島市         NaN
+5              632              岐阜  ...   岐阜市         NaN
+6              430              函館  ...   函館市     渡島総合振興局
+7              761              彦根  ...   彦根市         NaN
+8              765              広島  ...   広島市         NaN
+9              827             鹿児島  ...  鹿児島市         NaN
+
+[10 rows x 20 columns]
+
+All analysis tables and figures saved.
