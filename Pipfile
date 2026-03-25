@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 pandas = "*"
 matplotlib = "*"
-seaborn = "*"
 numpy = "*"
 requests = "*"
 meteostat = "*"
