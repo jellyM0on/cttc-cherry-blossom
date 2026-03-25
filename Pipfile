@@ -8,7 +8,9 @@ pandas = "*"
 matplotlib = "*"
 seaborn = "*"
 numpy = "*"
-jupyter = "*"
+requests = "*"
+meteostat = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
