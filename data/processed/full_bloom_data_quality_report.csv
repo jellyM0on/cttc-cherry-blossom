@@ -1,0 +1,9 @@
+metric,value
+rows_enriched_total,12407
+rows_full_bloom,6159
+unique_stations_full_bloom,102
+unique_years_full_bloom,73
+rows_missing_province_full_bloom,210
+rows_missing_climate_full_bloom,1892
+unique_provinces_full_bloom,46
+unique_climate_classes_full_bloom,4
