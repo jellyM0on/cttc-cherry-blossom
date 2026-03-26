@@ -96,7 +96,6 @@ def merge_blossom_with_wmo(blossom_df: pd.DataFrame, wmo_df: pd.DataFrame) -> pd
         "event",
         "station_name_jp",
         "station_name_en",
-        "station_name_ja",
         "jma_station_code",
         "wmo_station_id",
         "country_area",
