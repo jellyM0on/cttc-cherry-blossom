@@ -39,7 +39,7 @@ Location Climate Data:
     - Dfa - Hot summers, cold winters
     - Dfb - Mild summers, very cold winters
     
-### Key trends
+### Key Trends
 *Results can be seen in `outputs/`*
 
 - Climates and geography strongly influence cherry blossom timing. Warmer regions tend to have earlier blooms as early as 20-60 days. The average is around 100 days. The higher end is around 140-155 days
