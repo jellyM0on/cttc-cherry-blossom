@@ -98,7 +98,6 @@ CLEANED_REQUIRED_COLUMNS = {
     "event",
     "station_name_jp",
     "station_name_en",
-    "station_name_ja",
     "jma_station_code",
     "wmo_station_id",
     "country_area",
@@ -110,7 +109,6 @@ GEO_REQUIRED_COLUMNS = {
     "jma_station_code",
     "station_name_jp",
     "station_name_en",
-    "station_name_ja",
     "latitude_deg",
     "longitude_deg",
     "display_name",
@@ -133,3 +131,5 @@ SELECTED_STATIONS_SUMMARY_FILE = PROCESSED_DATA_DIR / "selected_stations_summary
 MIN_GROUP_RECORDS = 10
 TOP_N_PROVINCES = 10
 TOP_N_STATIONS = 10
+
+MIN_SELECTED_STATION_YEARS = 20

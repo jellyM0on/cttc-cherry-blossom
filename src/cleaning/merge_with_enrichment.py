@@ -33,7 +33,6 @@ def merge_cleaned_with_geolocation(cleaned_df: pd.DataFrame, geo_df: pd.DataFram
         "event",
         "station_name_jp",
         "station_name_en",
-        "station_name_ja",
         "jma_station_code",
         "wmo_station_id",
         "country_area",

@@ -22,7 +22,7 @@ def load_cleaned_dataset() -> pd.DataFrame:
     df["jma_station_code"] = standardize_id(df["jma_station_code"])
     df["wmo_station_id"] = standardize_id(df["wmo_station_id"])
 
-    for col in ["station_name_jp", "station_name_en", "station_name_ja", "event", "country_area"]:
+    for col in ["station_name_jp", "station_name_en", "event", "country_area"]:
         df[col] = standardize_text_field(df[col])
 
     df["year"] = standardize_numeric_field(df["year"])
@@ -51,7 +51,6 @@ def load_geolocation_dataset() -> pd.DataFrame:
     text_cols = [
         "station_name_jp",
         "station_name_en",
-        "station_name_ja",
         "display_name",
         "osm_type",
         "country",

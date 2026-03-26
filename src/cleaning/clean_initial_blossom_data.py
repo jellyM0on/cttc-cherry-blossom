@@ -24,7 +24,6 @@ def prepare_wmo_station_data(wmo_df: pd.DataFrame) -> pd.DataFrame:
     wmo_df["wmo_index"] = standardize_id(wmo_df["wmo_index"])
     wmo_df["station_name"] = standardize_text_field(wmo_df["station_name"])
     wmo_df["country_area"] = standardize_text_field(wmo_df["country_area"])
-    wmo_df["station_name_ja"] = standardize_text_field(wmo_df["station_name_ja"])
 
     wmo_df["latitude_deg"] = standardize_numeric_field(wmo_df["latitude_deg"])
     wmo_df["longitude_deg"] = standardize_numeric_field(wmo_df["longitude_deg"])
