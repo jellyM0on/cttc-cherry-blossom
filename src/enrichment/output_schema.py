@@ -7,7 +7,6 @@ EXPECTED_OUTPUT_COLUMNS = [
     "wmo_station_id",
     "station_name_jp",
     "station_name_en",
-    "station_name_ja",
     "latitude_deg",
     "longitude_deg",
     "display_name",
@@ -47,7 +46,6 @@ def merge_station_fields_into_output(
         "wmo_station_id",
         "station_name_jp",
         "station_name_en",
-        "station_name_ja",
         "latitude_deg",
         "longitude_deg",
     ]

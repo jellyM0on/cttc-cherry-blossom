@@ -67,7 +67,6 @@ def search_geocode_nominatim(query: str, session: requests.Session) -> dict | No
 def build_location_queries(row: pd.Series) -> list[str]:
     station_name_jp = safe_str(row.get("station_name_jp"))
     station_name_en = safe_str(row.get("station_name_en"))
-    station_name_ja = safe_str(row.get("station_name_ja"))
     city = safe_str(row.get("city"))
     province = safe_str(row.get("province"))
     subprovince = safe_str(row.get("subprovince"))
@@ -80,14 +79,11 @@ def build_location_queries(row: pd.Series) -> list[str]:
         [city, subprovince, province, country],
         [station_name_en, city, province, country],
         [station_name_jp, city, province, country],
-        [station_name_ja, city, province, country],
         [station_name_en, province, country],
         [station_name_jp, province, country],
-        [station_name_ja, province, country],
         [display_name],
         [station_name_en, country],
         [station_name_jp, country],
-        [station_name_ja, country],
     ]
 
     seen = set()
@@ -108,7 +104,6 @@ def enrich_station_row(row: pd.Series, session: requests.Session) -> dict:
         "wmo_station_id": safe_str(row.get("wmo_station_id")),
         "station_name_jp": safe_str(row.get("station_name_jp")),
         "station_name_en": safe_str(row.get("station_name_en")),
-        "station_name_ja": safe_str(row.get("station_name_ja")),
         "latitude_deg": lat,
         "longitude_deg": lon,
         "display_name": None,

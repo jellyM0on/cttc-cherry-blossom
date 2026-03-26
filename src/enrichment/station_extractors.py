@@ -5,7 +5,6 @@ REQUIRED_STATION_COLUMNS = [
     "wmo_station_id",
     "station_name_jp",
     "station_name_en",
-    "station_name_ja",
     "latitude_deg",
     "longitude_deg",
 ]
