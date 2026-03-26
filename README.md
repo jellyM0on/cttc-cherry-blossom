@@ -1,3 +1,4 @@
+*v.1*
 ### 🌸 Overview
 This project was made for the exercise `Individual Activity: Data Analysis Script & Report`
 
